@@ -1,7 +1,6 @@
-x = 10
-
-def f():
-    print(x)
-    x = 5
-
-f()
+try:
+    print("A")
+    raise Exception("boom")
+    print("B")   # ❌ never runs
+except Exception:
+    print("C",Exception)

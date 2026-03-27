@@ -1,0 +1,3 @@
+FastAPI example
+Reading files line by line
+End of file 3

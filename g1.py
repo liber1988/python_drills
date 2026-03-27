@@ -14,8 +14,8 @@ def my_generator():
     print("End")
 user=my_generator()
 print(next(user))
+user.throw(Exception("An error occurred"))
 print(user.__next__())
 # print(user.__next__())
-user.throw(Exception("An error occurred"))
 
 
