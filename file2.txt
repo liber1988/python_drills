@@ -1,0 +1,3 @@
+Python is great
+Generators are powerful
+End of file 2
